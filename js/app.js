@@ -34,17 +34,17 @@ function typeWriter() {
         }
     }
 }
-yes.addEventListener("click", function () {
-    noChoice.style.display = "none";
-    yesChoice.style.display = "flex"
-});
-no.addEventListener("click", function () {
-    noChoice.style.display = "block";
-    yesChoice.style.display = "none"
-});
-for (let i = 0; i < exit.length; i++) {
-    exit[i].addEventListener("click", function () {
-        noChoice.style.display = "none";
-        yesChoice.style.display = "none"
-    })
-}
+// yes.addEventListener("click", function () {
+//     noChoice.style.display = "none";
+//     yesChoice.style.display = "flex"
+// });
+// no.addEventListener("click", function () {
+//     noChoice.style.display = "block";
+//     yesChoice.style.display = "none"
+// });
+// for (let i = 0; i < exit.length; i++) {
+//     exit[i].addEventListener("click", function () {
+//         noChoice.style.display = "none";
+//         yesChoice.style.display = "none"
+//     })
+// }

@@ -1,6 +1,6 @@
 @font-face {
     font-family: Dancing_Script;
-    src: url("../Font/Dancing_Script/DancingScript-Bold.ttf");
+    src: url("../font/dancingscript/DancingScript-Bold.ttf");
 }
 
 * {
@@ -67,12 +67,12 @@ button a {
 }
 
 .main-photo {
-    width: 40%;
+    width: 85%;
     height: 100%;
     margin: 0 auto;
     overflow: hidden;
     box-shadow: 0px 0px 30px #fff;
-    z-index: 1;
+    z-index: 2;
 }
 
 .photo {
@@ -90,37 +90,37 @@ button a {
 }
 
 .photo:nth-of-type(1) {
-    background: url(../Pictures/g.jpg);
+    background: url(../images/g.jpg);
     background-size: cover;
 }
 
 .photo:nth-of-type(2) {
-    background: url(../Pictures/g1.jpg);
+    background: url(../images/g1.jpg);
     background-size: cover;
 }
 
 .photo:nth-of-type(3) {
-    background: url(../Pictures/g2.jpg);
+    background: url(../images/g2.jpg);
     background-size: cover;
 }
 
 .photo:nth-of-type(4) {
-    background: url(../Pictures/g3.jpg);
+    background: url(../images/g3.jpg);
     background-size: cover;
 }
 
 .photo:nth-of-type(5) {
-    background: url(../Pictures/g4.jpg);
+    background: url(../images/g4.jpg);
     background-size: cover;
 }
 
 .photo:nth-of-type(6) {
-    background: url(../Pictures/g5.jpg);
+    background: url(../images/g5.jpg);
     background-size: cover;
 }
 
 .photo:nth-of-type(7) {
-    background: url(../Pictures/g6.jpg);
+    background: url(../images/g6.jpg);
     background-size: cover;
 }
 
@@ -133,7 +133,7 @@ button a {
     background: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.7)),
-        url(../Pictures/g.jpg);
+        url(../images/g.jpg);
     background-size: cover;
     background-position: 0% 30%;
 }
@@ -142,7 +142,7 @@ button a {
     background: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.7)),
-        url(../Pictures/g1.jpg);
+        url(../images/g1.jpg);
     background-size: cover;
     background-position: 0% 30%;
 }
@@ -151,7 +151,7 @@ button a {
     background: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.7)),
-        url(../Pictures/g2.jpg);
+        url(../images/g2.jpg);
     background-size: cover;
     background-position: 0% 30%;
 }
@@ -160,7 +160,7 @@ button a {
     background: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.7)),
-        url(../Pictures/g3.jpg);
+        url(../images/g3.jpg);
     background-size: cover;
     background-position: 0% 30%;
 }
@@ -169,7 +169,7 @@ button a {
     background: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.7)),
-        url(../Pictures/g4.jpg);
+        url(../images/g4.jpg);
     background-size: cover;
     background-position: 0% 30%;
 }
@@ -178,7 +178,7 @@ button a {
     background: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.7)),
-        url(../Pictures/g5.jpg);
+        url(../images/g5.jpg);
     background-size: cover;
     background-position: 0% 30%;
 }
@@ -187,7 +187,7 @@ button a {
     background: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.7)),
-        url(../Pictures/g6.jpg);
+        url(../images/g6.jpg);
     background-size: cover;
     background-position: 0% 30%;
 }
