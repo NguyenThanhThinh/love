@@ -1,0 +1,26 @@
+{
+  "name": "love",
+  "version": "1.0.0",
+  "description": "love",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NguyenThanhThinh/love.git"
+  },
+  "keywords": [
+    "love"
+  ],
+  "author": "Thinh Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NguyenThanhThinh/love/issues"
+  },
+  "homepage": "https://github.com/NguyenThanhThinh/love#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  }
+}
